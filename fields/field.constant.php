@@ -144,3 +144,6 @@ $GO_FIELDS['contact_num']['input_type'] = 'text';
 $GO_FIELDS['groups_id_tech']['name']       = __("Group in charge of the hardware");
 $GO_FIELDS['groups_id_tech']['input_type'] = 'dropdown';
 $GO_FIELDS['groups_id_tech']['condition']  = ['is_assign' => 1];
+
+$GO_FIELDS['registro_sanitario_id']['name']       = __("Numero Registro Sanitario");
+$GO_FIELDS['registro_sanitario_id']['input_type'] = 'text';
